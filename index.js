@@ -71,7 +71,7 @@ function gameOver(a) {
 }
 
 function draw() {
-    var drawAlertElement = '<b>DRAW!!!</b><br><br>' + restartButton;
+    var drawAlertElement = '<b>EMPATEEEEEE</b><br><br>' + restartButton;
     var div = document.createElement("div");
     div.className = "alert";
     div.innerHTML = drawAlertElement;
